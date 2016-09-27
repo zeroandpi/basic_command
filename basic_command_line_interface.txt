@@ -1,0 +1,75 @@
+# This file shows some basic commands (UNIX/LINUX - bash shell)
+# By: Zero
+# Date: Tue Sep 27 18:17:29 2016
+
+# 0. Quit or exit from some situations
+	a. If you are in man page
+		-> press "q" to exit
+	b. If you stuck when running some process
+		-> Unix: Hold COMMAND then press "c" or "z"
+		-> Linux: Hold CONTROL then press "c" or "z"
+	c. If you are access root (whoami -> root), and you wanna exit
+		-> exit
+
+# 1. Display effective user id
+whoami
+man whoami
+
+# 2. Display helpful information about builtin commands
+help
+help help
+
+# 3. Print working directory name
+pwd
+man pwd
+
+# 4. List directory contents
+ls
+man ls
+
+# 5. Make directories
+mkdir newDir
+man mkdir
+
+# 6. Remove directory entries
+rm -r newDir
+man rm
+
+# 7. Change the current directory to DIR (NOTE: "/" is the root PATH)
+cd /
+help cd
+
+# 8. touch utility sets the modification and access times of files
+touch newFile
+man touch
+
+# 9. sudo allows a permitted user to execute a command as the superuser...
+sudo -s
+man sudo
+
+# 10. exit from root
+exit
+help exit
+
+# 11. display and update sorted information about processes
+top
+man top
+
+# 12. process status
+ps
+man ps
+
+# 13. open files and directories (UNIX only)
+open /Applications/Safari.app/
+man open
+
+# 14. print the route packets take to network host
+traceroute google.com
+man traceroute
+
+# 15. send ICMP ECHO_REQUEST packets to network hosts
+ping google.com
+man ping
+
+# 16. read man page about man page
+man man
